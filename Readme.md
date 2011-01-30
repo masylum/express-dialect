@@ -49,7 +49,7 @@ and then add some lines to your app.
         };
 
     express_dialect(dialect_options, function (error, dialect) {
-      app.dynamicHelpers(dialect.dynamic_helpers); // makes t() available
+      use(dialect.helpers); // makes t() available in views and the response object
 
       app.get('', function (req, res) {
         res.render('index', {layout: null});
