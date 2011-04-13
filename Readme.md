@@ -1,3 +1,9 @@
+# DEPRECATED
+
+This module is not maintained anymore.
+
+If you want a backend for your dialect translations please use [dialect-http](https://github.com/masylum/dialect-http)
+
 # ExpressDialect
 
 ExpressDialect is a "pluggable" express application that deals with i18n.
